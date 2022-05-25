@@ -8,6 +8,10 @@ Original file is located at
 """
 
 #data with faker
+import subprocess
+import sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "wit"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "faker"])
 
 import random
 import faker
