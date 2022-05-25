@@ -32,7 +32,7 @@ for i in range(500):
   province.append(random.choice(provinces))
 
 import re
-
+"""
 f1 = open("artist_data.csv", "r")
 artist = []
 for celeb in f1:
@@ -52,7 +52,7 @@ for gen in f2:
 genre[:10]
 
 artist_genre_dict = dict(zip(artist, genre))
-
+"""
 from pandas._libs import index
 fake_data = {"genre": genreee, "province":province}
 nightlife_data = pd.DataFrame(fake_data, index=venue)
