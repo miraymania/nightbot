@@ -141,8 +141,8 @@ def NightBot(text):
       print(f"You can listen to {value0} in these bars: {bars}")
     
 while True:
-    input = input()
-    if input() == "no":
+    input = input("write here:")
+    if input == "no":
          break
     NightBot(input)
 
