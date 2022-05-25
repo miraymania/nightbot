@@ -9,7 +9,6 @@ Original file is located at
 
 #data with faker
 
-!pip install faker
 import random
 import faker
 
