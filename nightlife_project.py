@@ -55,7 +55,6 @@ nightlife_data = pd.DataFrame(fake_data, index=venue)
 
 nightlife_data[:20]
 
-pip install wit
 
 from wit import Wit
 access_token = "5O6MM3BQBVCZHYIV5OMCFPDOO3NTH3AG"
