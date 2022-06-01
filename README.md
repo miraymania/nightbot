@@ -52,11 +52,11 @@ The loop is executed with the exit command.
 ```python
 ***Write 'exit' to exit the program please***
 I am going to Şişli tonight!!
-When I'm in the mood for şişli, I always go to Kozmonot pub bomonti, Kozmonot pub topağacı, Divine brasserie & jazz club, Hunhar topağacı, The muse, Wu bomonti.
+>>>When I'm in the mood for şişli, I always go to Kozmonot pub bomonti, Kozmonot pub topağacı, Divine brasserie & jazz club, Hunhar topağacı, The muse, Wu bomonti.
 ***Write 'exit' to exit the program please***
 What about rnb in şişli tho??
-The findings for r&b and şişli are these bars: The muse
+>>>The findings for r&b and şişli are these bars: The muse
 ***Write 'exit' to exit the program please***
 exit
-Okay, that was it then, see you later and have lots of fun!
+>>>Okay, that was it then, see you later and have lots of fun!
 ```
