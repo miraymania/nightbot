@@ -4,13 +4,18 @@
 Our data set `nightlife_data` includes 27 bars in Istanbul with their addresses and genres they play.
 ```python
 >>> nightlife_data.head(10)
-                                                  ADDRESS PROVINCE       GENRE
+                                                              ADDRESS PROVINCE       GENRE
 VENUE
-ritim                      Hüseyinağa Mh. Sahne Sk. No:20  beyoğlu       latin
-klein.garten  Asmalımescit Mh. Meşrutiyet Cd. No:67 Kat:6  beyoğlu  electronic
-gizli bahçe             Hüseyinağa Mh. Nevizade Sk. No:15  beyoğlu  electronic
-kastel               Hüseyinağa Mh. Kamer Hatun Cd. No:10  beyoğlu  electronic
-baylo            Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu         pop
+ritim                                  Hüseyinağa Mh. Sahne Sk. No:20  beyoğlu       latin
+klein.garten              Asmalımescit Mh. Meşrutiyet Cd. No:67 Kat:6  beyoğlu  electronic
+gizli bahçe                         Hüseyinağa Mh. Nevizade Sk. No:15  beyoğlu  electronic
+kastel                           Hüseyinağa Mh. Kamer Hatun Cd. No:10  beyoğlu  electronic
+baylo                        Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu         pop
+monkeyistanbul      Evliya Çelebi Mh. Sadi Konuralp Cd. No:5/1 Nej...  beyoğlu  electronic
+corner irish pub              Asmalımescit Mh. Meşrutiyet Cd. No:11/A   taksim        rock
+şahika                               Hüseyinağa Mh. Nevizade Sk. No:7  beyoğlu  electronic
+eskici                              Kuloğlu Mh. Fuat Uzkınay Sk. No:8  beyoğlu         pop
+rocknrolla beyoğlu                Şehit Muhtar Mh. Kurabiye Sk. No:19  beyoğlu        rock
 ```
 # Wit.ai
 `Wit.ai` is used to extract data from utterances with `entity` and `intent` classification. 
