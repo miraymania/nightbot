@@ -1,5 +1,5 @@
 # NightBot
-`NightBot` is a chatbot that provides you venues according to your genre preference. Although its main aim is to find venues, it is also capable of finding provinces and genres.
+`NightBot` is a chatbot that provides you venues according to your genre preference.
 # Wit.ai
 `Wit.ai` is used to extract data from utterances with `entity` and `intent` classification. 
 <br></br>
