@@ -18,6 +18,13 @@
 <i> Example: </i>
 ```python
 find_venue("pop")
+                                                           ADDRESS PROVINCE GENRE
+VENUE
+baylo                     Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu   pop
+eskici                           Kuloğlu Mh. Fuat Uzkınay Sk. No:8  beyoğlu   pop
+taps bebek                           bebek Cevdet Paşa Cd. No: 119    bebek   pop
+l'eclipse bar    Cengiz Topel Cd. No: 39 Le Meridien Istanbul H...   etiler   pop
+hunhar topağacı                Topağacı Mh. Ihlamur Yolu Sk. No:28    şişli   pop
 ```
 `find_venue_gp(string1, string2)`: Finds venues given both genre and province.
 <br></br>
