@@ -46,4 +46,4 @@ NightBot("I want to listen to rock music in Taksim tonight?")
 # How the NightBot works:
 <i> Example: </i>
 After getting the first input, the while loop starts working. The input is the argument of `NightBot()` function. With each new input the function works again. 
-Eith the exit command the loop is executed. 
+The loop is executed with the exit command.
