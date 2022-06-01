@@ -14,7 +14,6 @@
   Entities: `genre`, `province`, `venue`
 # How to use functions
 `find_venue(string)`: Finds venues given genre or province.
-
 <br></br>
 <i> Example: </i>
 ```python
@@ -28,12 +27,6 @@ find_venue_gp("electronic","beyoğlu")
 ```
 <i> Example: </i>
 <br></br>
-
-                                  ADDRESS	             PROVINCE	 GENRE
-VENUE			
-corner irish pub	Asmalımescit Mh. Meşrutiyet Cd. No:11/A	taksim	rock
-<br></br>
-
 `find_genre(venue)`: Finds the genre of a venue.
 <br></br>
 <i> Example: </i>
@@ -44,6 +37,7 @@ find_genre("Kastel")
 <br></br>
 VENUE	  GENRE
 kastel	electronic
+<br></br>
 `InputAnalysis(text)`: Extracts the province and genre entities as well as the intent of the input from the wit.ai output. It works with the length of the output, first checking if the code was able to find the intent and then if there are one or multiple entities.
 <br></br>
 <i> Example: </i>
@@ -53,6 +47,7 @@ InputAnalysis("Where can I listen to R&B?")
 <i> Output: </i>
 <br></br>
 ['intent', 'find_venue', 'genre', 'r&b']
+<br></br>
 `NightBot(text)`: Takes the input of the user to give a suitable response with the desired result. (ie. venue names or genre)
 <br></br>
 <i> Example: </i>
