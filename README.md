@@ -1,6 +1,18 @@
 # NightBot
 `NightBot` is a chatbot that provides you venues according to your genre preference.
 # Wit.ai
+Our data set `nightlife_data` includes 27 bars in Istanbul with their addresses and genres they play.
+```python
+>>> nightlife_data.head(5)
+                                                  ADDRESS PROVINCE       GENRE
+VENUE
+ritim                      Hüseyinağa Mh. Sahne Sk. No:20  beyoğlu       latin
+klein.garten  Asmalımescit Mh. Meşrutiyet Cd. No:67 Kat:6  beyoğlu  electronic
+gizli bahçe             Hüseyinağa Mh. Nevizade Sk. No:15  beyoğlu  electronic
+kastel               Hüseyinağa Mh. Kamer Hatun Cd. No:10  beyoğlu  electronic
+baylo            Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu         pop
+```
+# Wit.ai
 `Wit.ai` is used to extract data from utterances with `entity` and `intent` classification. 
 <br></br>
 <b>How Wit.ai works:</b>
