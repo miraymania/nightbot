@@ -1,5 +1,5 @@
 # NightBot
-`NightBot` is a chatbot that provides you venues according to your genre preference.
+`NightBot` is a chatbot that collects data on bars and provides you with venues according to your genre or province preference. Learning the genre of the venues is also possible.
 # Dataset
 Our data set `nightlife_data` includes 27 bars in Istanbul with their addresses and genres they play.
 ```python
