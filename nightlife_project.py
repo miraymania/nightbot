@@ -16,7 +16,6 @@ import numpy as np
 from wit import Wit
 import re
 import pandas as pd
-import datetime
 import random
 
 """Our dataset of bars, their locations, genres they play and addresses"""
