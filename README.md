@@ -49,11 +49,14 @@ NightBot("I want to listen to rock music in Taksim tonight?")
 After getting the first input, the while loop starts working. The input is the argument of `NightBot()` function. With each new input the function works again. 
 The loop is executed with the exit command.
 <br></br>
-What do you feel like for a night out?I'm going to şişli tonight!
+```python
+***Write 'exit' to exit the program please***
+I am going to Şişli tonight!!
 When I'm in the mood for şişli, I always go to Kozmonot pub bomonti, Kozmonot pub topağacı, Divine brasserie & jazz club, Hunhar topağacı, The muse, Wu bomonti.
-***Type 'exit' to exit the program please***
-What about rnb in şişli tho?
+***Write 'exit' to exit the program please***
+What about rnb in şişli tho??
 The findings for r&b and şişli are these bars: The muse
-***Type 'exit' to exit the program please***
+***Write 'exit' to exit the program please***
 exit
 Okay, that was it then, see you later and have lots of fun!
+```
