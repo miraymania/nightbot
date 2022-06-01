@@ -31,19 +31,21 @@ hunhar topağacı                Topağacı Mh. Ihlamur Yolu Sk. No:28    şişl
 <i> Example: </i>
 ```python
 find_venue_gp("electronic","beyoğlu")
+                                         ADDRESS PROVINCE GENRE
+VENUE
+baylo   Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu   pop
+eskici         Kuloğlu Mh. Fuat Uzkınay Sk. No:8  beyoğlu   pop
 ```
-<i> Example: </i>
 <br></br>
 `find_genre(venue)`: Finds the genre of a venue.
 <br></br>
 <i> Example: </i>
 ```python
 find_genre("Kastel")
+             GENRE
+VENUE
+kastel  electronic
 ```
-<i> Output: </i>
-<br></br>
-VENUE	  GENRE
-kastel	electronic
 <br></br>
 `InputAnalysis(text)`: Extracts the province and genre entities as well as the intent of the input from the wit.ai output. It works with the length of the output, first checking if the code was able to find the intent and then if there are one or multiple entities.
 <br></br>
@@ -59,11 +61,9 @@ InputAnalysis("Where can I listen to R&B?")
 <br></br>
 <i> Example: </i>
 ```python
-NightBot("I want to listen to rock music in Taksim tonight.")
+NightBot("I want to listen to pop music in Beyoğlu tonight.")
+The findings for pop and Beyoğlu are these bars: Baylo, Eskici
 ```
-<i> Output: </i>
-<br></br>
-The findings for rock and Taksim are these bars: Corner irish pub
 # How the NightBot works:
 <i> Example: </i>
 <br></br>
