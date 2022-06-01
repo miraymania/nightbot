@@ -3,7 +3,7 @@
 # Wit.ai
 Our data set `nightlife_data` includes 27 bars in Istanbul with their addresses and genres they play.
 ```python
->>> nightlife_data.head(5)
+>>> nightlife_data.head(10)
                                                   ADDRESS PROVINCE       GENRE
 VENUE
 ritim                      Hüseyinağa Mh. Sahne Sk. No:20  beyoğlu       latin
