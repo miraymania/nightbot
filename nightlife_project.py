@@ -8,16 +8,14 @@ Original file is located at
 """
 
 """Installing the required packages"""
-!pip install pywit
-!pip install streamlit
-!pip install wit
+#!pip install pywit
+#!pip install wit
 import random
 from pandas._libs import index
 import numpy as np
 from wit import Wit
 import re
 import pandas as pd
-import streamlit as st
 import datetime
 import random
 
