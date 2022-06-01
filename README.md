@@ -37,7 +37,7 @@ find_genre("Kastel")
 ```python
 InputAnalysis("Where can I listen to R&B?")
 ```
-`NightBot(text)`: Takes the input of the user to give a suitable response.
+`NightBot(text)`: Takes the input of the user to give a suitable response with the desired result. (ie. venue names or genre)
 <br></br>
 <i> Example: </i>
 ```python
@@ -45,16 +45,5 @@ NightBot("I want to listen to rock music in Taksim tonight?")
 ```
 # How the NightBot works:
 <i> Example: </i>
-```python
-user_input = input("What do you feel like for a night out?")
-exit = True
-while exit:
-  NightBot(user_input)
-  print("***Type 'exit' to exit the program please***")
-  user_input = input()
-  if user_input == "exit":
-    print("Okay, that was it then, see you later and have lots of fun!")
-    exit = False
-  else:
-    continue
-```
+After getting the first input, the while loop starts working. The input is the argument of `NightBot()` function. With each new input the function works again. 
+Eith the exit command the loop is executed. 
