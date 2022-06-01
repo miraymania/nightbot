@@ -17,7 +17,7 @@
 <br></br>
 <i> Example: </i>
 ```python
-find_venue("pop")
+>>>find_venue("pop")
                                                            ADDRESS PROVINCE GENRE
 VENUE
 baylo                     Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu   pop
@@ -30,7 +30,7 @@ hunhar topağacı                Topağacı Mh. Ihlamur Yolu Sk. No:28    şişl
 <br></br>
 <i> Example: </i>
 ```python
-find_venue_gp("electronic","beyoğlu")
+>>>find_venue_gp("pop","beyoğlu")
                                          ADDRESS PROVINCE GENRE
 VENUE
 baylo   Asmalımescit Mh. Meşrutiyet Cd. No:107/A  beyoğlu   pop
@@ -41,27 +41,25 @@ eskici         Kuloğlu Mh. Fuat Uzkınay Sk. No:8  beyoğlu   pop
 <br></br>
 <i> Example: </i>
 ```python
-find_genre("Kastel")
-             GENRE
+>>> find_genre("Eskici")
+       GENRE
 VENUE
-kastel  electronic
+eskici   pop
 ```
 <br></br>
 `InputAnalysis(text)`: Extracts the province and genre entities as well as the intent of the input from the wit.ai output. It works with the length of the output, first checking if the code was able to find the intent and then if there are one or multiple entities.
 <br></br>
 <i> Example: </i>
 ```python
-InputAnalysis("Where can I listen to R&B?")
+>>> InputAnalysis("Where can I listen to R&B in Beşiktaş?")
+['intent', 'find_venue', 'province', 'Beşiktaş', 'genre', 'r&b']
 ```
-<i> Output: </i>
-<br></br>
-['intent', 'find_venue', 'genre', 'r&b']
 <br></br>
 `NightBot(text)`: Takes the input of the user to give a suitable response with the desired result. (ie. venue names or genre)
 <br></br>
 <i> Example: </i>
 ```python
-NightBot("I want to listen to pop music in Beyoğlu tonight.")
+>>> NightBot("I want to listen to pop music in Beyoğlu tonight.")
 The findings for pop and Beyoğlu are these bars: Baylo, Eskici
 ```
 # How the NightBot works:
@@ -71,13 +69,12 @@ After getting the first input, the while loop starts working. The input is the a
 The loop is executed with the exit command.
 <br></br>
 ```python
-***Write 'exit' to exit the program please***
 I am going to Şişli tonight!!
->>>When I'm in the mood for şişli, I always go to Kozmonot pub bomonti, Kozmonot pub topağacı, Divine brasserie & jazz club, Hunhar topağacı, The muse, Wu bomonti.
+When I'm in the mood for şişli, I always go to Kozmonot pub bomonti, Kozmonot pub topağacı, Divine brasserie & jazz club, Hunhar topağacı, The muse, Wu bomonti.
 ***Write 'exit' to exit the program please***
 What about rnb in şişli tho??
->>>The findings for r&b and şişli are these bars: The muse
+The findings for r&b and şişli are these bars: The muse
 ***Write 'exit' to exit the program please***
 exit
->>>Okay, that was it then, see you later and have lots of fun!
+Okay, that was it then, see you later and have lots of fun!
 ```
